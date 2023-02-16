@@ -3,46 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/cafe.css">
+    <link rel="stylesheet" href="boot_trap/css/bootstrap.css">
+   <link rel="stylesheet" href="css/cafe.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
 <header>
-    <img src="" alt="" srcset="">
-    
-   <nav>
-    <ul>
-        <li><a href="">home</a></li>
-        <li><a href="">contota</a></li>
-        <li><a href="">sobre nós</a></li>
-        <li><a href="">cadastro</a></li>
-    </ul>
-   </nav>
+   <div class="caixa_nav_ul">
+    <img id="cafe_" src="imagens/coffee-logo-logo-elements-logo-objects-3.png" alt="">
+       <nav>
+        <ul class="nav__">
+            <li><a href="">home</a></li>
+            <li><a href="">contota</a></li>
+            <li><a href="">sobre nós</a></li>
+            <li><a href="">cadastro</a></li>
+        </ul>
+       </nav>
+   </div>
 </header>
 <header>
-   <h1></h1>
-   <img src="" alt="">
+   <div class="caixa_slide">
+       <h1 class="h1-hearde">o melhor da cidader de <span class="span_colo">amontada</span> pode ler oferecer</h1>
+       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="imagem" src="imagens/826182.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img id="imagem" src="imagens/qNKaOp.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img id="imagem" src="imagens/qNKaOp.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+         </div>
+   </div>
 </header>
 <main>
-<sction class="section__h2__a">
-    <h2><a href="">01</a></h2>
-    <img src="R.jpg" alt="">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
-    <h2><a href="">02</a></h2>
-    <img src="R.jpg" alt="">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
-    <h2><a href="">03</a></h2>
-    <img src="R.jpg" alt="">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
-    <h2><a href="">04</a></h2>
-    <img src="R.jpg" alt="">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
-</sction>
+<div class="container">
+    <sction class="row">
+        <div class="col">
+            <h2><a href="">01</a></h2>
+            <img src="R.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
+        </div>
+        <div class="col">
+            <h2><a href="">02</a></h2>
+            <img src="R.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
+        </div>
+        <div class="col">
+            <h2><a href="">03</a></h2>
+            <img src="R.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
+        </div>
+        <div class="col">
+            <h2><a href="">04</a></h2>
+            <img src="R.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, iusto!</p>
+        </div>
+    </sction>
+</div>
 
 </main>
 <footer>
-    <nav>
+    <nav class="container-fluid">
         <ul>
             <li>Entra</li>
             <li>Cadastrese</li>
@@ -55,5 +81,6 @@
         <h3>Rua</h3>
     </section>
 </footer>
+<script src="boot_trap/js/bootstrap.js"></script>
 </body>
 </html>

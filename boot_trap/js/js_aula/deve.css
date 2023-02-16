@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: blue;
+}
+div{
+    margin-top: 80px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    margin-left: 10px;
+    font-size: 40px;
+}
+label{
+    margin-top: 10px;
+}
+h1{
+    margin-right: 20px;
+    padding-bottom: 30px;
+}

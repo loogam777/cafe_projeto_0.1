@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  background-image: url(244946.webp);
+}
+header{
+   display: grid;
+   grid-template-areas: 
+    nav nav nav
+    main main main
+    foor foor forr
+   ;
+   width: 100vw;height: 100vh;
+   background-repeat: round;
+}
+ul{
+    height: 50px;
+    grid-template-columns: 1fr auto 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    background-color: black;
+    opacity: 80%;
+   
+}
+li{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 16px;
+}
+a{
+   text-decoration: none;
+}

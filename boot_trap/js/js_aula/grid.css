@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;]
+    font-family: arial;
+    
+}
+div{
+    border: 2px solid black;
+    width: 100vw;height: 50px;
+    font-size: 20px;
+}

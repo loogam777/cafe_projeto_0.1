@@ -1,9 +1,36 @@
 *{
     padding: 0px;
     margin: 0px;
+    list-style: none;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+}
+/* nav */
+.nav__{
+    display: flex;
+    font-family: 25px;
+    margin-top: 20px;
+}
+/* logo */
+#cafe_{
+    width:60px;height:74px;
+}
+a{
+    margin: 10px;
+    font-size: 26px;
+}
+.caixa_nav_ul{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    opacity: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.caixa_slide{
+    margin-top: 40px;
 }
 .section__h2__a{
     display: grid;
@@ -18,8 +45,20 @@ a{
 a:hover{
     color: lightcoral;
 }
-img{
-    width: 200px;
-    height: 150px;
-    border-radius: 20px;
+
+.h1-hearde{
+    font-weight: lighter;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
+.span_colo{
+    color:lightsalmon ;
+    border: 1px solid lightsalmon;
+    border-radius: 70%;
+    padding: 10px;
+}
+#imagem{
+   height: 450px; 
+}
+/* main */
