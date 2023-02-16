@@ -59,6 +59,7 @@ a:hover{
     padding: 10px;
 }
 #imagem{
-   height: 450px; 
+   height: 72vh; width: 80vw!important; border-radius: 20px !important;
+   margin-left: 120px;
 }
 /* main */
