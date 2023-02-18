@@ -1,0 +1,25 @@
+.caixa {
+    justify-content: center;
+}
+
+.cor_ {
+    border: 2px solid black; border-radius: 5px;
+}
+
+input::placeholder {
+    padding-left: 1rem;
+}
+
+.container {
+    width: 30vw;
+}
+
+.img_cadastro {
+    display: grid;
+    justify-content: center;
+}
+
+.img__contato {
+    width: 200px; height: 200px;
+    display: grid;
+}
