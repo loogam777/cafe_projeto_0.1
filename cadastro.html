@@ -20,12 +20,13 @@
                     <li><a href="">contato</a></li>
                     <li><a href="">sobre nós</a></li>
                     <li><a href="">cadastro</a></li>
+                    <li><a href="Login.html">Login</a></li>
                 </ul>
                </nav>
            </div>
     </header>
     <main class="container">
-        <form class="caixa row g-3 row-cols-2">
+        <form class="caixa row g-3 row-cols-2" method="dialog">
             <div class="col-auto gy-5">
               <label for="staticEmail2" class="visually-hidden cor_2">Email</label>
               <input type="text" placeholder="E-mail" class="form-control-plaintext cor_" id="staticEmail2">
@@ -35,16 +36,13 @@
               <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
             </div>
             <div class="col-auto">
-              <button type="submit" class="btn btn-primary mb-3 cadastro__button">Confirm identity</button>
+              <button type="submit" class="btn btn-primary mb-3 cadastro__button" onclick="meuAcesso();">Confirm identity</button>
             </div>
           </form>
-          <div class="img_cadastro">
-            <img class="img__contato" src="images/5777810.png" alt="">
+          <div class="container img_cadastro">
+            <img class="img-fluid" src="images/5777810.png" alt="">
           </div>
-          <img src="images/bootstrap-icons/0-circle-fill.svg" alt="">
-          <i class="bi bi-cloud-upload"></i>
     </main>
-    <script src="boot_trap/js/bootstrap.js"></script>
     <script src="javascript/cadastro.js"></script>
 </body>
 </html>

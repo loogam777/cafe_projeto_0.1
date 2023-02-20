@@ -24,18 +24,6 @@ input::placeholder {
     display: grid;
 }
 
-@media screen and (max-width: 768px) {
-    input::placeholder {
-        padding-left: 0;
-    }
-
-    .img__contato {
-        width: 150px; height: 150px;
-    }
-}
-
-@media screen and (max-width: 592px) {
-    .cadastro__button {
-        width: 10rem;
-    }
+.img_cadastro {
+    width: 200px; height: 100px;
 }
