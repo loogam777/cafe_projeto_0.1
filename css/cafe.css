@@ -64,3 +64,21 @@ a:hover{
    margin-left: 120px;
 }
 /* main */
+
+
+/* footee */
+section{
+    border: 2px solid black;
+    border-radius: 10%;
+    opacity: 70%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: end;
+    background-color: rgb(94, 134, 174);
+}
+h3{
+    box-sizing: border-box;
+    padding-right: 50px;padding-top: 5px;
+}
