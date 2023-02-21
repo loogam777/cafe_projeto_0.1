@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="boot_trap/css/bootstrap.css">
     <link rel="stylesheet" href="css/cafe.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    
+    <header>
+        <div class="caixa_nav_ul">
+            <img id="cafe_" src="images/coffee-logo-logo-elements-logo-objects-3.png" alt="">
+            <nav>
+                <ul class="nav__">
+                    <li><a href="cafe.html">home</a></li>
+                    <li><a href="">contato</a></li>
+                    <li><a href="">sobre nós</a></li>
+                    <li><a href="cadastro.html">cadastro</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+      <script src="boot_trap/js/bootstrap.js"></script>
+      <script src="javascript/login.js"></script>
 </body>
-</html><header>
-    <div class="caixa_nav_ul">
-     <img id="cafe_" src="images/coffee-logo-logo-elements-logo-objects-3.png" alt="">
-        <nav>
-         <ul class="nav__">
-             <li><a href="">home</a></li>
-             <li><a href="">contato</a></li>
-             <li><a href="">sobre nós</a></li>
-             <li><a href="cadastro.html">cadastro</a></li>
-             <li><a href="Login.html">Login</a></li>
-         </ul>
-        </nav>
-    </div>
- </header>
+</html>
